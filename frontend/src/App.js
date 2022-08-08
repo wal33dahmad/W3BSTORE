@@ -4,10 +4,10 @@ import BestSellers from "./components/BestSellers";
 import Blogs from "./components/Blogs";
 import DealOfWeek from "./components/DealOfWeek";
 import MainSlider from "./components/MainSlider";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/partials/Navbar";
 import NewArrivals from "./components/NewArrivals";
 import NewsLetter from "./components/NewsLetter";
-import Footer from "./components/Footer";
+import Footer from "./components/partials/Footer";
 
 function App() {
   return (
