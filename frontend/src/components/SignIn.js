@@ -1,6 +1,33 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const SignIn = () => {
+  let navigate = useNavigate();
+
+  const [user, setUser] = useState({
+    email: "",
+    password: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUser({ ...user, [name]: value });
+  };
+
+  const login = async (e) => {
+    e.preventDefault();
+    const { email, password } = user;
+    if (email && password) {
+      await axios.post("http://localhost:8080/login", user).then((res) => {
+        console.log(res.data.message);
+        navigate("/");
+      });
+    } else {
+      alert("Please enter all details");
+    }
+  };
+
   return (
     <div className="signin">
       <div className="container">
@@ -32,6 +59,8 @@ const SignIn = () => {
                       type="email"
                       name="email"
                       placeholder="Email"
+                      value={user.email}
+                      onChange={handleChange}
                       required
                     />
                     <input
@@ -39,6 +68,8 @@ const SignIn = () => {
                       type="password"
                       name="password"
                       placeholder="Password"
+                      value={user.password}
+                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -47,6 +78,7 @@ const SignIn = () => {
                       type="submit"
                       className="red_button message_submit_btn trans_300"
                       value="Submit"
+                      onClick={login}
                     >
                       Sign In
                     </button>

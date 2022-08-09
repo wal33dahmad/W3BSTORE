@@ -1,6 +1,33 @@
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import axios from "axios";
 
 const SignUp = () => {
+  let navigate = useNavigate();
+
+  const [user, setUser] = useState({
+    name: "",
+    email: "",
+    password: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setUser({ ...user, [name]: value });
+  };
+
+  const register = async (e) => {
+    e.preventDefault();
+    const { name, email, password } = user;
+    if (name && email && password) {
+      await axios.post("http://localhost:8080/register", user).then((res) => {
+        navigate("/login");
+      });
+    } else {
+      alert("Please enter all details");
+    }
+  };
+
   return (
     <div className="signin">
       <div className="container">
@@ -32,6 +59,8 @@ const SignUp = () => {
                       type="text"
                       name="name"
                       placeholder="Name"
+                      value={user.name}
+                      onChange={handleChange}
                       required
                     />
                     <input
@@ -39,6 +68,8 @@ const SignUp = () => {
                       type="email"
                       name="email"
                       placeholder="Email"
+                      value={user.email}
+                      onChange={handleChange}
                       required
                     />
                     <input
@@ -46,6 +77,8 @@ const SignUp = () => {
                       type="password"
                       name="password"
                       placeholder="Password"
+                      value={user.password}
+                      onChange={handleChange}
                       required
                     />
                   </div>
@@ -54,6 +87,7 @@ const SignUp = () => {
                       type="submit"
                       className="red_button message_submit_btn trans_300"
                       value="Submit"
+                      onClick={register}
                     >
                       Sign Up
                     </button>
