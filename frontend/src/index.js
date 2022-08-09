@@ -5,15 +5,20 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Contact from "./components/Contact";
+import Shop from "./components/Shop";
+import SignIn from "./components/SignIn";
+import SignUp from "./components/SignUp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        {/* <Route index element={<Home />} /> */}
+        <Route path="/" index element={<App />} />
+        <Route path="/shop" element={<Shop />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/login" element={<SignIn />} />
+        <Route path="/register" element={<SignUp />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <div class="top_nav_left">
+              <div className="top_nav_left">
                 free shipping on all u.s orders over $50
               </div>
             </div>
@@ -20,16 +20,16 @@ const Navbar = () => {
                     </div>
                     <ul className="account_selection">
                       <li>
-                        <a href="/login">
+                        <Link to={"/login"}>
                           <i className="fa fa-sign-in"></i>
                           Sign In
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/register">
+                        <Link to={"/register"}>
                           <i className="fa fa-user-plus"></i>
                           Register
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -95,7 +95,7 @@ const Navbar = () => {
                   <li className="checkout">
                     <a href="cart">
                       <i className="fa fa-shopping-cart"></i>
-                      <span class="checkout_items">2</span>
+                      <span className="checkout_items">2</span>
                     </a>
                   </li>
                 </ul>

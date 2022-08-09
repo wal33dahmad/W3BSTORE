@@ -32,24 +32,24 @@ const NewArrivals = () => {
         <div className="row product-grid">
           <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="product_item">
-              <div class="product_image">
+              <div className="product_image">
                 <img src="/images/xproduct_1.webp" alt="" />
               </div>
-              {/* <div class="favorite favorite_left"></div>
-              <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
+              {/* <div className="favorite favorite_left"></div>
+              <div className="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center">
                 <span>-$20</span>
               </div> */}
-              <div class="product_info">
-                <h6 class="product_name">
+              <div className="product_info">
+                <h6 className="product_name">
                   <a href="single.html">
                     Fujifilm X100T 16 MP Digital Camera (Silver)
                   </a>
                 </h6>
-                <div class="product_price">
+                <div className="product_price">
                   $520.00<span>$590.00</span>
                 </div>
               </div>
-              <div class="red_button add_to_cart_button">
+              <div className="red_button add_to_cart_button">
                 <a href="/">add to cart</a>
               </div>
             </div>
@@ -57,20 +57,20 @@ const NewArrivals = () => {
 
           <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="product_item">
-              <div class="product_image">
+              <div className="product_image">
                 <img src="/images/xproduct_2.webp" alt="" />
               </div>
-              <div class="product_info">
-                <h6 class="product_name">
+              <div className="product_info">
+                <h6 className="product_name">
                   <a href="single.html">
                     Fujifilm X100T 16 MP Digital Camera (Silver)
                   </a>
                 </h6>
-                <div class="product_price">
+                <div className="product_price">
                   $520.00<span>$590.00</span>
                 </div>
               </div>
-              <div class="red_button add_to_cart_button">
+              <div className="red_button add_to_cart_button">
                 <a href="/">add to cart</a>
               </div>
             </div>
@@ -78,20 +78,20 @@ const NewArrivals = () => {
 
           <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="product_item">
-              <div class="product_image">
+              <div className="product_image">
                 <img src="/images/xproduct_3.webp" alt="" />
               </div>
-              <div class="product_info">
-                <h6 class="product_name">
+              <div className="product_info">
+                <h6 className="product_name">
                   <a href="single.html">
                     Fujifilm X100T 16 MP Digital Camera (Silver)
                   </a>
                 </h6>
-                <div class="product_price">
+                <div className="product_price">
                   $520.00<span>$590.00</span>
                 </div>
               </div>
-              <div class="red_button add_to_cart_button">
+              <div className="red_button add_to_cart_button">
                 <a href="/">add to cart</a>
               </div>
             </div>
@@ -99,20 +99,20 @@ const NewArrivals = () => {
 
           <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="product_item">
-              <div class="product_image">
+              <div className="product_image">
                 <img src="/images/xproduct_4.webp" alt="" />
               </div>
-              <div class="product_info">
-                <h6 class="product_name">
+              <div className="product_info">
+                <h6 className="product_name">
                   <a href="single.html">
                     Fujifilm X100T 16 MP Digital Camera (Silver)
                   </a>
                 </h6>
-                <div class="product_price">
+                <div className="product_price">
                   $520.00<span>$590.00</span>
                 </div>
               </div>
-              <div class="red_button add_to_cart_button">
+              <div className="red_button add_to_cart_button">
                 <a href="/">add to cart</a>
               </div>
             </div>
@@ -120,20 +120,20 @@ const NewArrivals = () => {
 
           <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="product_item">
-              <div class="product_image">
+              <div className="product_image">
                 <img src="/images/xproduct_5.webp" alt="" />
               </div>
-              <div class="product_info">
-                <h6 class="product_name">
+              <div className="product_info">
+                <h6 className="product_name">
                   <a href="single.html">
                     Fujifilm X100T 16 MP Digital Camera (Silver)
                   </a>
                 </h6>
-                <div class="product_price">
+                <div className="product_price">
                   $520.00<span>$590.00</span>
                 </div>
               </div>
-              <div class="red_button add_to_cart_button">
+              <div className="red_button add_to_cart_button">
                 <a href="/">add to cart</a>
               </div>
             </div>
@@ -141,20 +141,20 @@ const NewArrivals = () => {
 
           <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="product_item">
-              <div class="product_image">
+              <div className="product_image">
                 <img src="/images/xproduct_6.webp" alt="" />
               </div>
-              <div class="product_info">
-                <h6 class="product_name">
+              <div className="product_info">
+                <h6 className="product_name">
                   <a href="single.html">
                     Fujifilm X100T 16 MP Digital Camera (Silver)
                   </a>
                 </h6>
-                <div class="product_price">
+                <div className="product_price">
                   $520.00<span>$590.00</span>
                 </div>
               </div>
-              <div class="red_button add_to_cart_button">
+              <div className="red_button add_to_cart_button">
                 <a href="/">add to cart</a>
               </div>
             </div>
@@ -162,20 +162,20 @@ const NewArrivals = () => {
 
           <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="product_item">
-              <div class="product_image">
+              <div className="product_image">
                 <img src="/images/xproduct_7.webp" alt="" />
               </div>
-              <div class="product_info">
-                <h6 class="product_name">
+              <div className="product_info">
+                <h6 className="product_name">
                   <a href="single.html">
                     Fujifilm X100T 16 MP Digital Camera (Silver)
                   </a>
                 </h6>
-                <div class="product_price">
+                <div className="product_price">
                   $520.00<span>$590.00</span>
                 </div>
               </div>
-              <div class="red_button add_to_cart_button">
+              <div className="red_button add_to_cart_button">
                 <a href="/">add to cart</a>
               </div>
             </div>
@@ -183,20 +183,20 @@ const NewArrivals = () => {
 
           <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="product_item">
-              <div class="product_image">
+              <div className="product_image">
                 <img src="/images/xproduct_8.webp" alt="" />
               </div>
-              <div class="product_info">
-                <h6 class="product_name">
+              <div className="product_info">
+                <h6 className="product_name">
                   <a href="single.html">
                     Fujifilm X100T 16 MP Digital Camera (Silver)
                   </a>
                 </h6>
-                <div class="product_price">
+                <div className="product_price">
                   $520.00<span>$590.00</span>
                 </div>
               </div>
-              <div class="red_button add_to_cart_button">
+              <div className="red_button add_to_cart_button">
                 <a href="/">add to cart</a>
               </div>
             </div>

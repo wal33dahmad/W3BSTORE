@@ -53,28 +53,28 @@ const Contact = () => {
               <form method="post">
                 <div>
                   <input
-                    class="form_input input_name input_ph"
+                    className="form_input input_name input_ph"
                     type="text"
                     name="name"
                     placeholder="Name"
                     required
                   />
                   <input
-                    class="form_input input_email input_ph"
+                    className="form_input input_email input_ph"
                     type="email"
                     name="email"
                     placeholder="Email"
                     required
                   />
                   <input
-                    class="form_input input_website input_ph"
+                    className="form_input input_website input_ph"
                     type="url"
                     name="name"
                     placeholder="Website"
                     required
                   />
                   <textarea
-                    class="input_ph input_message"
+                    className="input_ph input_message"
                     name="message"
                     placeholder="Message"
                     rows="3"
@@ -84,7 +84,7 @@ const Contact = () => {
                 <div>
                   <button
                     type="submit"
-                    class="red_button message_submit_btn trans_300"
+                    className="red_button message_submit_btn trans_300"
                     value="Submit"
                   >
                     send message

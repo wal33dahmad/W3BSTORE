@@ -17,7 +17,7 @@ const Benefit = () => {
           <div className="col-lg-3 benefit_col">
             <div className="benefit_item d-flex flex-row align-items-center">
               <div className="benefit_icon">
-                <i class="fa fa-money-bill-1" aria-hidden="true"></i>
+                <i className="fa fa-money-bill-1" aria-hidden="true"></i>
               </div>
               <div className="benefit_content">
                 <h6>Cash on delivery</h6>
@@ -28,7 +28,7 @@ const Benefit = () => {
           <div className="col-lg-3 benefit_col">
             <div className="benefit_item d-flex flex-row align-items-center">
               <div className="benefit_icon">
-                <i class="fa fa-arrow-rotate-left"></i>
+                <i className="fa fa-arrow-rotate-left"></i>
               </div>
               <div className="benefit_content">
                 <h6>45 days return</h6>
@@ -39,7 +39,7 @@ const Benefit = () => {
           <div className="col-lg-3 benefit_col">
             <div className="benefit_item d-flex flex-row align-items-center">
               <div className="benefit_icon">
-                <i class="fa-regular fa-clock"></i>
+                <i className="fa-regular fa-clock"></i>
               </div>
               <div className="benefit_content">
                 <h6>opening all week</h6>
